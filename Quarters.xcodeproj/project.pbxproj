@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024E05EDE0684252D97036E9 /* Pods_Quarters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AAFC7FB45B997AC3B89FA7 /* Pods_Quarters.framework */; };
+		700C93071E24085A00E76561 /* KeyChainAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700C93061E24085A00E76561 /* KeyChainAccess.swift */; };
 		70AA5B411E1E72BE00FF3209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA5B401E1E72BE00FF3209 /* AppDelegate.swift */; };
 		70AA5B431E1E72BE00FF3209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA5B421E1E72BE00FF3209 /* ViewController.swift */; };
 		70AA5B461E1E72BE00FF3209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AA5B441E1E72BE00FF3209 /* Main.storyboard */; };
 		70AA5B491E1E72BE00FF3209 /* Quarters.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70AA5B471E1E72BE00FF3209 /* Quarters.xcdatamodeld */; };
 		70AA5B4B1E1E72BE00FF3209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70AA5B4A1E1E72BE00FF3209 /* Assets.xcassets */; };
 		70AA5B4E1E1E72BE00FF3209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AA5B4C1E1E72BE00FF3209 /* LaunchScreen.storyboard */; };
+		70AA5B561E1E8FA800FF3209 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA5B551E1E8FA800FF3209 /* LoginViewController.swift */; };
+		70AA5B591E21762600FF3209 /* PlaidLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA5B581E21762600FF3209 /* PlaidLinkViewController.swift */; };
+		70AA5B5B1E23AFF200FF3209 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA5B5A1E23AFF200FF3209 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FCB982F9E5F69B6E77C7799 /* Pods-Quarters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quarters.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quarters/Pods-Quarters.release.xcconfig"; sourceTree = "<group>"; };
+		700C93061E24085A00E76561 /* KeyChainAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainAccess.swift; sourceTree = "<group>"; };
 		70AA5B3D1E1E72BE00FF3209 /* Quarters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quarters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70AA5B401E1E72BE00FF3209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70AA5B421E1E72BE00FF3209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		70AA5B4A1E1E72BE00FF3209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70AA5B4D1E1E72BE00FF3209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70AA5B4F1E1E72BE00FF3209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70AA5B551E1E8FA800FF3209 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		70AA5B581E21762600FF3209 /* PlaidLinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaidLinkViewController.swift; sourceTree = "<group>"; };
+		70AA5B5A1E23AFF200FF3209 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		A6AAFC7FB45B997AC3B89FA7 /* Pods_Quarters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quarters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7CCA45358D52E2CD962D270 /* Pods-Quarters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quarters.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quarters/Pods-Quarters.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024E05EDE0684252D97036E9 /* Pods_Quarters.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		523B2F2B4EB585EDFEBF5549 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7CCA45358D52E2CD962D270 /* Pods-Quarters.debug.xcconfig */,
+				3FCB982F9E5F69B6E77C7799 /* Pods-Quarters.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		70AA5B341E1E72BE00FF3209 = {
 			isa = PBXGroup;
 			children = (
 				70AA5B3F1E1E72BE00FF3209 /* Quarters */,
 				70AA5B3E1E1E72BE00FF3209 /* Products */,
+				523B2F2B4EB585EDFEBF5549 /* Pods */,
+				DCA495A0B6580A3D349A5897 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,27 @@
 		70AA5B3F1E1E72BE00FF3209 /* Quarters */ = {
 			isa = PBXGroup;
 			children = (
+				700C93061E24085A00E76561 /* KeyChainAccess.swift */,
 				70AA5B401E1E72BE00FF3209 /* AppDelegate.swift */,
 				70AA5B421E1E72BE00FF3209 /* ViewController.swift */,
+				70AA5B551E1E8FA800FF3209 /* LoginViewController.swift */,
+				70AA5B581E21762600FF3209 /* PlaidLinkViewController.swift */,
 				70AA5B441E1E72BE00FF3209 /* Main.storyboard */,
+				70AA5B5A1E23AFF200FF3209 /* FeedViewController.swift */,
 				70AA5B4A1E1E72BE00FF3209 /* Assets.xcassets */,
 				70AA5B4C1E1E72BE00FF3209 /* LaunchScreen.storyboard */,
 				70AA5B4F1E1E72BE00FF3209 /* Info.plist */,
 				70AA5B471E1E72BE00FF3209 /* Quarters.xcdatamodeld */,
 			);
 			path = Quarters;
+			sourceTree = "<group>";
+		};
+		DCA495A0B6580A3D349A5897 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6AAFC7FB45B997AC3B89FA7 /* Pods_Quarters.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70AA5B521E1E72BE00FF3209 /* Build configuration list for PBXNativeTarget "Quarters" */;
 			buildPhases = (
+				97F88D28871FD4EAE1B58818 /* [CP] Check Pods Manifest.lock */,
 				70AA5B391E1E72BE00FF3209 /* Sources */,
 				70AA5B3A1E1E72BE00FF3209 /* Frameworks */,
 				70AA5B3B1E1E72BE00FF3209 /* Resources */,
+				35AA9C6D7F5484FBA9CD1856 /* [CP] Embed Pods Frameworks */,
+				6E90ABFB8E120C93F8808E8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,13 +173,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35AA9C6D7F5484FBA9CD1856 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quarters/Pods-Quarters-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E90ABFB8E120C93F8808E8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quarters/Pods-Quarters-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97F88D28871FD4EAE1B58818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70AA5B391E1E72BE00FF3209 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				700C93071E24085A00E76561 /* KeyChainAccess.swift in Sources */,
+				70AA5B591E21762600FF3209 /* PlaidLinkViewController.swift in Sources */,
+				70AA5B561E1E8FA800FF3209 /* LoginViewController.swift in Sources */,
 				70AA5B431E1E72BE00FF3209 /* ViewController.swift in Sources */,
 				70AA5B491E1E72BE00FF3209 /* Quarters.xcdatamodeld in Sources */,
+				70AA5B5B1E23AFF200FF3209 /* FeedViewController.swift in Sources */,
 				70AA5B411E1E72BE00FF3209 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,24 +351,29 @@
 		};
 		70AA5B531E1E72BE00FF3209 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7CCA45358D52E2CD962D270 /* Pods-Quarters.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Quarters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Quarters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		70AA5B541E1E72BE00FF3209 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCB982F9E5F69B6E77C7799 /* Pods-Quarters.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Quarters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Quarters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -301,6 +397,7 @@
 				70AA5B541E1E72BE00FF3209 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
