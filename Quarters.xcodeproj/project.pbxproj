@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		024E05EDE0684252D97036E9 /* Pods_Quarters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AAFC7FB45B997AC3B89FA7 /* Pods_Quarters.framework */; };
-		700C93071E24085A00E76561 /* KeyChainAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700C93061E24085A00E76561 /* KeyChainAccess.swift */; };
+		700C93091E2560B900E76561 /* HTTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700C93081E2560B900E76561 /* HTTPHelper.swift */; };
 		70AA5B411E1E72BE00FF3209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA5B401E1E72BE00FF3209 /* AppDelegate.swift */; };
-		70AA5B431E1E72BE00FF3209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA5B421E1E72BE00FF3209 /* ViewController.swift */; };
 		70AA5B461E1E72BE00FF3209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AA5B441E1E72BE00FF3209 /* Main.storyboard */; };
 		70AA5B491E1E72BE00FF3209 /* Quarters.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70AA5B471E1E72BE00FF3209 /* Quarters.xcdatamodeld */; };
 		70AA5B4B1E1E72BE00FF3209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70AA5B4A1E1E72BE00FF3209 /* Assets.xcassets */; };
@@ -22,10 +21,9 @@
 
 /* Begin PBXFileReference section */
 		3FCB982F9E5F69B6E77C7799 /* Pods-Quarters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quarters.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quarters/Pods-Quarters.release.xcconfig"; sourceTree = "<group>"; };
-		700C93061E24085A00E76561 /* KeyChainAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainAccess.swift; sourceTree = "<group>"; };
+		700C93081E2560B900E76561 /* HTTPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHelper.swift; sourceTree = "<group>"; };
 		70AA5B3D1E1E72BE00FF3209 /* Quarters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quarters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70AA5B401E1E72BE00FF3209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70AA5B421E1E72BE00FF3209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70AA5B451E1E72BE00FF3209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70AA5B481E1E72BE00FF3209 /* Quarters.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quarters.xcdatamodel; sourceTree = "<group>"; };
 		70AA5B4A1E1E72BE00FF3209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,9 +78,8 @@
 		70AA5B3F1E1E72BE00FF3209 /* Quarters */ = {
 			isa = PBXGroup;
 			children = (
-				700C93061E24085A00E76561 /* KeyChainAccess.swift */,
+				700C93081E2560B900E76561 /* HTTPHelper.swift */,
 				70AA5B401E1E72BE00FF3209 /* AppDelegate.swift */,
-				70AA5B421E1E72BE00FF3209 /* ViewController.swift */,
 				70AA5B551E1E8FA800FF3209 /* LoginViewController.swift */,
 				70AA5B581E21762600FF3209 /* PlaidLinkViewController.swift */,
 				70AA5B441E1E72BE00FF3209 /* Main.storyboard */,
@@ -226,10 +223,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				700C93071E24085A00E76561 /* KeyChainAccess.swift in Sources */,
+				700C93091E2560B900E76561 /* HTTPHelper.swift in Sources */,
 				70AA5B591E21762600FF3209 /* PlaidLinkViewController.swift in Sources */,
 				70AA5B561E1E8FA800FF3209 /* LoginViewController.swift in Sources */,
-				70AA5B431E1E72BE00FF3209 /* ViewController.swift in Sources */,
 				70AA5B491E1E72BE00FF3209 /* Quarters.xcdatamodeld in Sources */,
 				70AA5B5B1E23AFF200FF3209 /* FeedViewController.swift in Sources */,
 				70AA5B411E1E72BE00FF3209 /* AppDelegate.swift in Sources */,
